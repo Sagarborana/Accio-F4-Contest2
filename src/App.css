@@ -1,0 +1,51 @@
+.App {
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+.card {
+  width: 18rem;
+}
+
+.wrapper {
+  margin: 0px auto;
+  justify-content: space-evenly;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+.search-group{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.search-group input{
+  margin-right:10px;
+  padding: 10px 300px;
+  /* outline: none; */
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 10px;
+}
+
+.search-group button{
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid black;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
